@@ -44,7 +44,7 @@ function convertSecondsToMinutesAndSeconds(seconds) {
 let currentFolder="songs";
 async function getSongs(folder) {
 currentFolder=folder;
-    let a = await fetch(`/${folder}/`);
+    let a = await fetch(`/tree/main/songs/`);
     let response = await a.text();
     // console.log(response);
     let div = document.createElement("div");
