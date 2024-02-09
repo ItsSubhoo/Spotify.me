@@ -1,0 +1,83 @@
+.flex{
+
+    display: flex;
+
+}
+.justify-content{
+
+    justify-content:center ;
+}
+
+.items-center{
+
+
+    align-items: center;
+}
+.border{
+
+
+    border: 2px solid green;
+}
+.invert{
+
+    filter: invert(1);
+}
+.bg-black{
+
+    background-color: black;
+    color: white;
+}
+
+.bg-gray{
+
+    background-color: #131312;
+}
+
+.rounded{
+
+    border-radius: 7px;
+}
+.roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    
+  }
+
+
+.highlightedsong{
+
+
+    font-weight: bold;
+    border:3px solid #25d8649c !important;
+}
+
+
+
+
+
+
+  body {background: #333; height: 1500px;}
+html {
+  scrollbar-face-color: #646464;
+  scrollbar-base-color: #646464;
+  scrollbar-3dlight-color: #646464;
+  scrollbar-highlight-color: #646464;
+  scrollbar-track-color: #000;
+  scrollbar-arrow-color: #000;
+  scrollbar-shadow-color: #646464;
+  scrollbar-dark-shadow-color: #646464;
+}
+
+::-webkit-scrollbar { width: 14px; height: 3px;}
+::-webkit-scrollbar-button {  background-color: #66666600; }
+::-webkit-scrollbar-track {  background-color: #64646400;}
+::-webkit-scrollbar-track-piece { background-color: #00000000;}
+::-webkit-scrollbar-thumb { height: 50px; background-color: #666; border-radius: 3px;}
+::-webkit-scrollbar-corner { background-color: #646464;}}
+::-webkit-resizer { background-color: #666;}
+
+
+
+
+

@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <link rel="icon" href="slogo.png" type="image/x-icon">
+
+</head>
+
+<body>
+    <div class="container flex roboto-bold ">
+        <div class="left  bg-black ">
+            <div class="home bg-gray rounded">
+                <div class="logo"><img class="invert" src="logo.svg" alt="spotify">
+
+                    <span id="closebtn">
+                        <img src="close.svg" class="invert" alt="">
+                    </span>
+                </div>
+
+                <ul>
+                    <li><img class="invert" src="home.svg" alt="home">Home</li>
+                    <li><img class="invert" src="search.svg" alt="search">Search</li>
+                </ul>
+            </div>
+            <div class="liabery bg-gray  rounded  ">
+                <div><img class="invert " src="yourliabery.svg" alt="Your Liabery" style="width: 15px;"><span
+                        id="yourliaberytext">Your Liabery</span> </div>
+
+                <div class="songs">
+                    <ul>
+                        <!-- <li class="songname rounded ">
+                            
+                            <div class="info ">
+                                <img width="32px" src="musicicn.svg" class="invert albumImage" />
+                                <div class="name ">
+                                    <h4  style="padding: 5px 5px;  width: 173px;">Phle bhi mai</h4>
+                                    <p  style="padding: 0px 5px;  width: 173px;">Subhajit LAi</p>
+                                </div>
+                            </div>
+                                <div class="playsvg flex " style="align-items:center;">
+                                    <p style="width: 60px;" >play now</p><img style=" width:  18px;" class=" " src="play.svg" alt="">
+
+                                </div>
+
+
+                           
+                        </li> -->
+                    </ul>
+
+
+                </div>
+
+                <div class="footer flex">
+                    <div><a href="https://www.spotify.com/in-en/legal/" id="" data-encore-id="textLink"><span
+                                data-encore-id="type">Legal</span></a></div>
+                    <div><a href="https://www.spotify.com/in-en/privacy/" id="" data-encore-id="textLink"><span
+                                data-encore-id="type">Privacy Center</span></a></div>
+                    <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/" id=""
+                            data-encore-id="textLink"><span data-encore-id="type">Privacy Policy</span></a></div>
+                    <div><a href="https://www.spotify.com/in-en/legal/cookies-policy/" id=""
+                            data-encore-id="textLink"><span data-encore-id="type">Cookies</span></a></div>
+                    <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3" id=""
+                            data-encore-id="textLink"><span data-encore-id="type">About Ads</span></a></div>
+                    <div><a href="https://www.spotify.com/in-en/accessibility/" id="" data-encore-id="textLink"><span
+                                data-encore-id="type">Accessibility</span></a></div>
+                </div>
+            </div>
+        </div>
+        <div class="right rounded">
+            <div class="header  flex">
+                <div class="navigation">
+                    <img class="leftarrow  invert " src="leftarrow.svg" alt="pre">
+                    <img class="leftarrow  invert " src="rightarrow.svg" alt="next">
+
+                </div>
+                <div class="invert menu">
+                    <img src="hamburgermanue.svg" alt="">
+                </div>
+                <div class="buttons">
+                    <button class="SignupBtn">Sign up</button>
+                    <button class="LoginBtn">Log in</button>
+                </div>
+            </div>
+            <div class="spotifyPlaylist">
+                <h2>Spotify Playlist</h3>
+                    <div class="cardContainere">
+                        <div class="card rounded" data-folder="songs">
+                            <img class="play-button" src="play-button.png" alt="">
+                            <img class="songImg" src="https://i.scdn.co/image/ab67706f000000025d8702ead7f24cd310c571c1"
+                                alt="">
+                            <h3 >Today's Top Hits</h3>
+                            <p>SZA is on top of the Hottest 50! </p>
+
+                        </div>
+                        <div class="card rounded" data-folder="animal">
+                            <img class="play-button" src="play-button.png" alt="">
+                            <img class="songImg" src="https://i.scdn.co/image/ab67706f00000002ec94bf1083be30463d4b731d"
+                                alt="">
+                            <h3>Chillhop</h3>
+                            <p>SZA is on top of the Hottest 50! </p>
+
+                        </div>
+                        <div class="card rounded" data-folder="Chillhop">
+                            <img class="play-button" src="play-button.png" alt="">
+                            <img class="songImg" src="https://i.scdn.co/image/ab67706f00000002bdeb1c317ac2dd10f2397e4c"
+                                alt="">
+                            <h3>Jazz in Background</h3>
+                            <p>SZA is on top of the Hottest 50! </p>
+
+                        </div>
+                        <div class="card rounded" data-folder="CalmingAcoustic">
+                            <img class="play-button" src="play-button.png" alt="">
+                            <img class="songImg" src="https://i.scdn.co/image/ab67706f00000002d8fe1c03afc22a01d5109233"
+                                alt="">
+                            <h3>Calming Acoustic</h3>
+                            <p>SZA is on top of the Hottest 50! </p>
+
+                        </div>
+                        <div class="card rounded" data-folder="BigOnInternet">
+                            <img class="play-button" src="play-button.png" alt="">
+                            <img class="songImg" src="https://i.scdn.co/image/ab67706f000000021c9bfca9b2fd2f546a30f751"
+                                alt="">
+                            <h3>Big On Internet</h3>
+                            <p>SZA is on top of the Hottest 50! </p>
+
+                        </div>
+                        <div class="card rounded" data-folder="Sleep">
+                            <img class="play-button" src="play-button.png" alt="">
+                            <img class="songImg" src="	https://i.scdn.co/image/ab67706f0000000281722192322800ae99c2ed06"
+                                alt="">
+                            <h3>Sleep</h3>
+                            <p>SZA is on top of the Hottest 50! </p>
+
+                        </div>
+
+
+
+
+                    </div>
+
+
+            </div>
+            <div class="play ">
+
+                <div class="seekbar">
+                    <div class="circle">
+
+                    </div>
+
+                </div>
+                <div class="songnameonbar">
+
+                    Animal BGM
+                </div>
+
+
+                <div>
+
+
+
+                    <div class="volume flex">
+                        <img class="volbtn invert" src="volumes.svg" alt="">
+
+                        <div class="volbar">
+                            <input id="range" style="align-items: center;" type="range" name="volume">
+                        </div>
+                    </div>
+                    <div id="songtimeonbar">
+                        00:00/01:40
+                    </div>
+                </div>
+
+                <div class="control">
+
+
+
+                    <img class="invert" id="previousbtn" style="opacity: .85;" src="previoussong.svg" alt="">
+
+                    <img style="width: 50px;border:2px solid rgba(255, 255, 255, 0)" id="greenplaybtn"
+                        src="play-button.png" alt="">
+                    <img class="invert" id="nextbtn" style="opacity: .85;" src="nextsong.svg" alt="">
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+
+</html>
